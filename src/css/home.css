@@ -1,0 +1,152 @@
+.HomeContainer>img{
+    width: 100%;
+   
+}
+.HomeImageContainer{
+    background-color:#3d4a66b0 ;
+   height:627px;
+   position: absolute;
+   width: 100%;
+   top: 0rem;
+
+
+}
+.HomeContent{
+    position: absolute;
+    color:white;
+    font-weight: 900;
+    font-size: 5rem;
+    top: 10rem;
+    left: 25rem;
+
+}
+.HomeButtom{
+    top: 28rem;
+    left: 41rem;
+    position: absolute;
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    background-color: #549ba0;
+}
+.HomeButtom:hover{
+    color: rgb(243, 239, 239);
+
+    background-color: #667fb4;
+}
+.HomeContext{
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 600;
+    top: 20rem;
+    left: 20rem;
+}
+@media only screen and (max-width: 1500px) {
+    .HomeImageContainer{
+        height:618px;
+       }
+   }
+     @media only screen and (max-width: 1440px) {
+        .HomeImageContainer{
+            height:590px;
+           }
+ 
+     }
+        @media only screen and (max-width: 1367px) {
+            .HomeImageContainer{
+                height:563px;
+               }
+         
+        }
+
+@media only screen and (max-width: 1025px){
+    .HomeImageContainer{
+     height:700px;
+    }
+    .HomeContainer>img{
+       height: 700px;
+     }
+     .HomeContent{
+       font-size: 3rem;
+        top: 15rem;
+        left: 19rem;
+    }
+    .HomeContext{
+        top: 21rem;
+        left:3rem;
+    }
+    .HomeButtom{
+        top: 30rem;
+        left: 25rem;
+ 
+    }
+
+}
+@media only screen and (max-width: 769px){
+    
+        .HomeContent{
+          font-size: 4rem;
+          top: 15rem;
+          left: 5.5rem;
+       }
+       .HomeContext{
+           top: 24rem;
+           left:2.5rem;
+           font-size: 1.5rem;
+       }
+       .HomeButtom{
+           top: 30rem;
+           left: 19rem;
+    
+       }
+
+  
+   }
+
+
+
+ @media only screen and (max-width: 415px){
+    .HomeContent{
+        font-size: 2.2rem;
+        top: 18rem;
+        left: 2.5rem;
+     }
+     .HomeContext{
+         top: 23rem;
+         left:2rem;
+         font-size: 1.1rem;
+     }
+     .HomeButtom{
+         top: 30rem;
+         left: 7rem;
+  
+     }
+
+   
+  
+  
+   }
+   @media only screen and (max-width: 376px){
+    .HomeContent{
+        font-size: 2rem;
+        top: 17rem;
+        left: 2rem;
+     }
+     .HomeContext{
+        top: 22rem;
+        left:2rem;
+        font-size: 1.2rem;
+    }
+    .HomeButtom{
+        top: 29rem;
+        left: 6rem;
+ 
+    }
+
+   } 
+
+

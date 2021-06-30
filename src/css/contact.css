@@ -1,0 +1,360 @@
+.Contactcontainer{
+   
+    box-shadow: 0px 0px 6px rgba(16, 21, 26, 0.11);
+    margin-top: 1rem;
+    background-color: #3d4a66;
+    
+}
+
+
+textarea{
+    height:12rem;
+    margin:2rem;
+    width:40rem;
+    margin-left: 2rem;
+}
+.inputField{
+    width: 88%;
+    padding: 10px;
+    outline: none;
+    margin-left: 2rem;
+    
+}
+.submit{
+    background-color: #549ba0;
+    color: white;
+    padding: 15px 250px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+  
+}
+.submit:hover{
+    color: rgb(243, 239, 239);
+
+    background-color: #667fb4;
+
+
+}
+.contactContent{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+   }
+   .contactTitle{
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-family: 'Lemonada', cursive;
+    color:white;
+    position: absolute;
+    top: auto;
+    left: 57%;
+}
+.Detail{
+position: absolute;
+left: 5px;
+
+  
+  
+}
+.Location{
+    font-size:80px;
+    position:absolute;
+     color:white;
+     top:160px;
+     left:210px;
+}
+.Mail{
+    font-size:75px;
+    position:absolute;
+     color:white;
+     top:335px;
+     left:212px;
+}
+.phone{
+    font-size:50px;
+    position:absolute;
+     color:white;
+     top:270px;
+     left:225px;
+}
+.Plocation{
+    position:absolute;
+    font-size:35px;
+
+    color:white;
+    top:130px;
+    left:280px;
+}
+.Pphone{
+    position:absolute;
+    font-size:35px;
+    color:white;
+    top:240px;
+    left:285px;
+}
+.Pmail{
+    position:absolute;
+    font-size:35px;
+    color:white;
+    top:315px;
+    left:290px;
+}
+.contactForm{
+ 
+
+    padding-top: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 96rem;
+    box-shadow: 0px 0px 6px rgba(231, 234, 236, 0.11);
+   
+   
+    
+}
+@media only screen and (max-width: 1500px) {
+ 
+    .contactForm{
+        margin-top: 6rem;
+        margin-left: 90rem;
+     }}
+     @media only screen and (max-width: 1440px) {
+ 
+        .contactForm{
+            margin-top: 6rem;
+            margin-left: 80rem;
+         }
+         .Location{
+            font-size:40px;
+            
+             top:150px;
+             left:250px;
+        }
+        .Mail{
+            font-size:40px;
+           
+             top:350px;
+             left:250px;
+        }
+        .phone{
+            font-size:30px;
+            
+             top:250px;
+             left:253px;
+        }
+        .Plocation{
+           
+            font-size:25px;
+            
+            top:155px;
+            left:150px;
+        }
+        .Pphone{
+           
+            font-size:25px;
+        
+            top:255px;
+            
+            left:150px;
+        }
+        .Pmail{
+            
+            font-size:25px;
+         
+            top:350px;
+            left:150px;
+        }}
+        @media only screen and (max-width: 1344px) {
+ 
+            .contactForm{
+                margin-top: 6rem;
+                margin-left: 50rem;
+             }
+             .contactTitle{
+                left: 40%;
+            }
+             .Location{
+                font-size:30px;
+                
+                 top:150px;
+                 left:100px;
+            }
+            .Mail{
+                font-size:30px;
+               
+                 top:350px;
+                 left:100px;
+            }
+            .phone{
+                font-size:25px;
+                
+                 top:250px;
+                 left:100px;
+            }
+            .Plocation{
+               
+                font-size:20px;
+                
+                top:155px;
+                left:50px;
+            }
+            .Pphone{
+               
+                font-size:20px;
+            
+                top:255px;
+                
+                left:50px;
+            }
+            .Pmail{
+                
+                font-size:20px;
+             
+                top:350px;
+                left:50px;
+            }
+        }
+
+@media only screen and (max-width: 1025px) {
+ 
+    .contactForm{
+        margin-top: 6rem;
+        margin-left: 50rem;
+     }
+     .contactTitle{
+         left: 40%;
+     }
+     .Location{
+        font-size:55px;
+        
+         top:80px;
+         left:110px;
+    }
+    .Mail{
+        font-size:45px;
+       
+         top:290px;
+         left:115px;
+    }
+    .phone{
+        font-size:35px;
+        
+         top:210px;
+         left:120px;
+    }
+    .Plocation{
+       
+        font-size:25px;
+        
+        top:115px;
+        left:20px;
+    }
+    .Pphone{
+       
+        font-size:25px;
+    
+        top:227px;
+        left:5px;
+    }
+    .Pmail{
+        
+        font-size:25px;
+     
+        top:310px;
+        left:-9px;
+    }
+    .Detail{
+        position: absolute;
+        left: 10px;
+        
+          
+          
+        }
+    
+   }
+  
+@media only screen and (max-width: 769px){
+    .contactLogo{
+     display: none;
+     
+    }
+    .contactForm{
+        margin-top: 6rem;
+        margin-left: 25rem;
+     }
+     .contactTitle{
+        left: 15%;
+    }
+    .Location{
+     display: none;
+    }
+    .Mail{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .Plocation{
+       
+        display: none;
+    }
+    .Pphone{
+       
+        display: none;
+    }
+    .Pmail{
+        
+        display: none;
+    }
+}
+   
+@media only screen and (max-width: 415px){
+    .contactTitle{
+        left: 15%;
+        font-size: 20px;
+    }
+ 
+     textarea{
+      width:22rem;
+       
+    }
+    .inputField{
+        width: 20rem;
+    }
+    .contactForm{
+        margin-top: 4rem;
+        margin-left: 11rem;
+        width: 25rem;
+     }
+     .submit{
+       padding: 15px 80px;
+       margin-left: 6rem;
+       }
+  
+   
+    
+}
+@media only screen and (max-width: 376px){
+  
+    textarea{
+        width:15rem;
+         
+      }
+      .contactForm{
+          margin-top: 4rem;
+          margin-left: 10rem;
+          width: 20rem;
+       }
+       .inputField{
+           width: 15rem;
+           
+       }
+       .submit{
+         padding: 15px 50px;
+         margin-left: 5rem;
+         }
+   
+}

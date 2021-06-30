@@ -1,0 +1,180 @@
+.toolcontainer{
+    margin-bottom: 2rem;
+}
+.imageToolContainer{
+    box-shadow: 0px 0px 6px rgba(16, 21, 26, 0.11);
+    margin-bottom: 1rem;
+  
+
+}
+.divImage1{
+    box-shadow: 0px 0px 6px rgba(152, 197, 241, 0.589);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.divImage2{
+    box-shadow: 0px 0px 6px rgba(152, 197, 241, 0.589);
+    margin-bottom: 1rem;
+}
+.imageTool:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.toolTitle>h4{
+  background-color:rgb(114, 112, 112);
+    transform: rotate(-90deg);
+    margin-left: -10rem;
+  
+    
+    height: 5rem;
+    width: 25rem;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 6px rgba(16, 21, 26, 0.719);
+
+}
+.toolImage>img{
+ 
+   
+    width: 15rem;
+    height: 15rem;
+}
+.toolImage{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20rem;
+    margin-left: 5rem;
+}
+.toolImage2>img{
+  
+    width: 15rem;
+    height: 15rem;
+    
+}
+.toolImage2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5rem;
+
+}
+@media only screen and (max-width: 1025px){
+    .imageToolContainer{
+        width: 100%;
+    }
+    .divImage1{
+   width:10rem;
+   height: 10rem;
+    
+    }
+    .imageTool{
+        width:10rem;
+        height: 10rem;
+
+    }
+    .toolTitle>h4{
+        background-color:rgb(114, 112, 112);
+        margin-left: -14rem;
+          height: 5rem;
+          width: 25rem;
+          font-size: 2rem;
+          font-weight: 500;
+          padding-top: 7rem;
+
+         
+      
+      }
+      
+
+}
+@media only screen and (max-width: 769px){
+    .imageToolContainer{
+        width: 100%;
+    }
+    .divImage1{
+   width:10rem;
+   height: 10rem;
+    
+    }
+    .imageTool{
+        width:10rem;
+        height: 10rem;
+
+    }
+    .toolTitle>h4{
+        background-color:rgb(114, 112, 112);
+        margin-left: -14rem;
+          height: 5rem;
+          width: 25rem;
+          font-size: 2rem;
+          font-weight: 500;
+          padding-top: 7rem;
+
+         
+      
+      }
+
+
+ 
+ 
+
+ }
+ @media only screen and (max-width: 415px){
+    .imageToolContainer{
+        width: 100%;
+        margin-top: 8rem;
+    }
+    .divImage1{
+   width:5rem;
+   height: 5rem;
+    
+    }
+    .imageTool{
+        width:5rem;
+        height: 5rem;
+
+    }
+    .toolTitle>h4{
+        background-color:rgb(114, 112, 112);
+        margin-left: -6rem;
+          height: 3rem;
+          width: 10rem;
+          font-size: 1rem; 
+      }
+
+
+ 
+
+
+ 
+ }
+ @media only screen and (max-width: 376px){
+    .imageToolContainer{
+        width: 100%;
+        margin-top: 8rem;
+    }
+    .divImage1{
+   width:5rem;
+   height: 5rem;
+    
+    }
+    .imageTool{
+        width:5rem;
+        height: 5rem;
+
+    }
+    .toolTitle>h4{
+        background-color:rgb(114, 112, 112);
+        margin-left: -6rem;
+          height: 3rem;
+          width: 10rem;
+          font-size: 1rem; 
+      }
+
+
+ }
+
